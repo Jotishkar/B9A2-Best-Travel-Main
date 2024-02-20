@@ -1,0 +1,319 @@
+.header {
+    border-radius: 135px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: #FF5400;
+    padding: 20px 25px;
+    width: 175px;
+    height: 52px;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn-whit {
+
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #ffffff;
+    padding: 20px 25px;
+    width: 175px;
+    height: 52px;
+    cursor: pointer;
+    border: 0;
+}
+
+.banner {
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 90px;
+    background: no-repeat;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: 100% 100%;
+    width: 1170px;
+    height: 500px;
+}
+
+
+.banner-titel {
+    font-size: 4rem;
+    /* font-size: 700; */
+    color: #ffffff;
+}
+
+.banner-description {
+    color: #ffffff;
+}
+
+
+/* teams styles */
+
+.teams-content {
+    padding-right: 50px;
+}
+
+.li-text,
+.teams-description {
+    padding: 20px;
+}
+
+
+.teams-container {
+
+    display: flex;
+    align-items: center;
+    padding: 135px 135px;
+}
+
+.teams-title,
+.section-titel {
+    font-size: 2.8rem;
+}
+
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.img-titel {
+    width: 540px;
+    height: 550px;
+}
+
+/* facts card style */
+
+.facts {
+    padding: 135px 135px;
+}
+
+.facts-heding {
+    text-align: center;
+    height: 126px;
+    width: 643px;
+    margin: 50px auto;
+
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    height: 220px;
+    width: 527px;
+}
+
+.card-1 {
+    padding-right: 116px;
+}
+
+.card-3 {
+    padding-left: 322px;
+}
+
+.section-title,
+.best-titel {
+    font-size: 2.8rem;
+}
+
+.facts-card-container {
+    display: flex;
+}
+
+/* footer section */
+
+.footers {
+    text-align: center;
+}
+
+.footer-heding {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-img {
+    padding-right: 20px;
+
+}
+
+.footer-imag-containar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-date {
+    padding: 120px 120px;
+}
+
+/* newsletter section styles */
+.newsletter {
+    display: flex;
+    gap: 50px;
+    padding: 135px 135px;
+}
+
+.newsletter-content p {
+    border-bottom: 2px solid #534f4c;
+    padding: 15px;
+}
+
+.newsletter-button {
+    padding-top: 25px;
+    display: grid;
+    gap: 15px;
+}
+
+.newsletter-button1 {
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: rgb(139, 131, 131);
+}
+
+.newsletter-subs {
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: #fff;
+    background-color: #FF5400;
+}
+
+.newsletter-content {
+    border-radius: 10px;
+    border: 2px solid #FF5400;
+    padding: 0 20px;
+    height: 422px;
+    width: 474px;
+
+}
+
+.travel-badge {
+    border-radius: 8px;
+    background: #ff5400;
+    color: #fff;
+    width: 324px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    left: 320px;
+    /* height: 120px; */
+}
+
+.travel-badge h2 {
+    font-size: 1.7rem;
+}
+
+.travel-badge p {
+    font-size: 1.2rem;
+}
+
+
+
+/* responsive media queries */
+@media screen and (max-width: 600px) {
+
+    .newsletter,
+    .facts-card-container,
+    .teams-container,
+    .btn-box,
+    .banner-titel {
+        flex-direction: column;
+    }
+
+    .newsletter,
+    .footer-imag-containar,
+    img,
+    .footers,
+    .footer-date,
+    .img-titel,
+    .card-3,
+    .banner-titel,
+    .banner-description,
+    .btn-box {
+        padding: 10px 10px;
+    }
+
+    .newsletter-button,
+    .btn-box {
+        padding-bottom: 10px;
+    }
+
+    .banner {
+        padding-top: 0px;
+    }
+
+    .banner-titel,
+    .best-titel {
+        font-size: 1rem;
+    }
+    .newsletter-content,
+    .footer-imag-containar,
+    img,
+    .teams-container,
+    .img-titel,
+    img,
+    .facts-heding,
+    .card-1,
+    .card-2,
+    .card-3,
+    .banner,
+    .btn-primary,
+    .btn-whit {
+        width: 100%;
+        height: auto;
+    }
+
+    .newsletter-img img{
+        width: 100%;
+        margin: 0;
+        /* height: auto;  */
+    }
+    .travel-badge{
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .background-image {
+        width: 100px;
+        height: auto;
+    }
+
+    .teams-content {
+        padding-right: 10px;
+    }
+
+    .facts,
+    .li-text,
+    .teams-description,
+    .teams-container {
+        padding: 10px 10px;
+        padding-right: 10px;
+    }
+
+    .footer-imag-containar {
+        gap: 0;
+        padding: 10px 10px;
+    }
+
+    .footer-img {
+        height: 100%;
+        width: auto;
+    }
+
+
+}
